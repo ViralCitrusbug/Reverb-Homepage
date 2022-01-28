@@ -155,3 +155,11 @@
     text-align: center;
     height: 35%;
 }
+
+.scroll-bar{
+        height: 100%;
+        width: 100%;
+        border: 1px solid gray;
+        overflow: auto;
+        white-space: nowrap;
+    }
