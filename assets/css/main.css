@@ -163,3 +163,10 @@
         overflow: auto;
         white-space:normal;
     }
+
+.carousel-scroll{
+    margin-bottom: 100px;
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+}
