@@ -1,0 +1,135 @@
+<style>
+.popup {
+     display: none;
+     width: 500px;
+     border: solid red 3px
+ }
+ .span-border{
+     border-top-color: rgb(255, 255, 255);
+     border-top-style: solid;
+     border-top-width: 0.1rem;
+     border-right-color: rgb(255, 255, 255);
+     border-right-style: solid;
+     border-right-width: 0.1rem;
+     border-bottom-color: rgb(255, 255, 255);
+     border-bottom-style: solid;
+     border-bottom-width: 0.1rem;
+     border-left-color: rgb(255, 255, 255);
+     border-left-style: solid;
+     border-left-width: 0.1rem;
+ }
+ .span-right-border{
+     border-right-color: rgb(255, 255, 255);
+     border-right-style: solid;
+     border-right-width: 0.1rem;
+ }
+ .sofia{
+     font-family:  "Sofia", sans-serif;
+ }
+ 
+ .white-border{
+     border: white;
+     border-width: 10px;
+     border-color: white;
+ }
+ .para{
+     color: gray;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 80%;
+ }
+ .para:hover{
+     color: white;
+ }
+ .bg-lightblack{
+     background-color: rgb(36, 35, 35);
+ }
+ .margin-l-309{
+     margin-left: 309px;
+ }
+ .img-wh{
+     max-width: 300px;
+     max-height: 300px;
+ }
+
+ .round{
+     border-radius: 10px;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ a:hover{
+     color: orange;
+ }
+ .margin-l-10{
+     margin-left: 100px;
+ }
+ 
+ .wstyle{
+     width: 2000px;
+ }
+ .leftmargin{
+     margin-left: 30px;
+ }
+ .leftmargin-15{
+     margin-left: 15px;
+ }
+ .btn-border{
+     color: 10px;
+     border-color: rgb(255, 166, 0);
+     border-width: 2px;
+ }
+ .border-left-none{
+     border-left: none;
+ }
+ .border-right-none{
+     border-right: none;
+ }
+ .text-orenge{
+     color:rgb(218, 141, 0);
+    
+ }
+ .nav-border{
+     border: black;
+     border-width: 100px;
+ }
+ .btn-border-dark{
+     color: rgb(75, 74, 74);
+     border-color: rgb(75, 74, 74);
+     border-width: 1px;
+ }
+ .text-size-12{
+     font-size: 12px;
+ }
+
+ .border-shadow-1{
+     box-shadow: #e42c2c;
+ }
+ input::target-text{
+     text-align: left;
+ }
+ 
+ h1{
+     font-family: "Trirong", serif;
+     font-size: 350%;
+ }
+ input::placeholder{
+     text-align: left;
+     margin-top: 50px;
+ }
+ input::placeholder{
+     font-size: 100%;
+ }
+ .round-ad{
+     border-radius: 5px;
+ }
+ .padding-t-10{
+     padding-top: 10px;
+ }
+ .border-up-down-none{
+     border-top: none;
+     border-bottom: none;
+ }
+
+</style>
