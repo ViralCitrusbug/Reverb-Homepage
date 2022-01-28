@@ -130,3 +130,14 @@
      border-top: none;
      border-bottom: none;
  }
+.popupdiv{
+    display: none;
+    background-color: white;
+    border: black;
+    box-shadow: black;
+    border-radius: 10px;
+    background: rgba(red, green, blue, 0.5);
+    position: fixed;
+    width: 10%;
+    height: 30%;
+}
