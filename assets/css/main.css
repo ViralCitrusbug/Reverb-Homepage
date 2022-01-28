@@ -131,7 +131,7 @@
      border-top: none;
      border-bottom: none;
  }
-.popupdiv{
+.popup-div{
     display: none;
     background-color: rgba(255, 255, 255, 1);
     border: black;
@@ -141,9 +141,9 @@
     position: fixed;
     width: 10%;
     text-align: center;
-    height: 25%;
+    height: 30%;
 }
-.popupdivnews{
+.popup-div-news{
     display: none;
     background-color: rgba(255, 255, 255, 1);
     border: black;

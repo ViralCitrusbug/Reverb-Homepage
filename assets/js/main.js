@@ -11,13 +11,12 @@ function popupNone(){
 }
 
 //POPUP on News button
-function popupnews(){
+function popupNews(){
     var i = document.getElementById('popupnews');
     i.style.display = "block";
 }
 
-function popupnonenews(){
+function popupNoneNews(){
     var i = document.getElementById('popupnews');
-    i.style.display = "none";
-    
+    i.style.display = "none"; 
 }
