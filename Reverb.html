@@ -61,8 +61,21 @@
                 <div class="container">
                     <div class=" leftmargin-15 ">
                         <div class="d-flex mt-2">
+                            <div class="popupdivnews mt-5" id="popupnews">
+                               <div class="p-3">
+                                <div class="d-flex">
+                                    <div class="mt-3"><img class="p-1" src="https://images.reverb.com/image/upload/s--X42xO7G6--/a_exif,c_thumb,f_auto,fl_progressive,g_north,h_100,q_auto:eco,w_100/v1643300913/uxx3jlmbyxnpbydneh0v.jpg" alt=""></div>
+                                 <div class="mt-4"><p>Just In: Fender Readies 2022 Lineup—MIJ Reissues, Anniversary Jags & More</p></div>
+                                 </div>
+                                 <div class="d-flex">
+                                    <div class="mt-3"><img class="p-1" src="https://images.reverb.com/image/upload/s---a09pH8f--/a_exif,c_thumb,f_auto,fl_progressive,g_north,h_100,q_auto:eco,w_100/v1643213939/zk4vkdq4du4m1zjxfbpn.png" alt=""></div>
+                                 <div class="mt-4"><p>The Most Watched Gear on Reverb This Week</p></div>
+                                 </div>
+                                 <div class="bg-warning btn mt-2 w-100">View All Articles</div>
+                               </div>
+                            </div>
                             <div><a href="">Brands</a></div>
-                            <span><a class="mx-3" href="">News</a></span>
+                            <span  onmouseover="popupnews()" onmouseout="popupnonenews()"><a class="mx-3" id="popupnews" href="">News</a></span>
                             <span onmouseout="popupNone()" onmouseover="popupfunction()">
                                 <div class="d-flex">
                                     <a class="mx-3" id="popup2"  href="">Explore</a>
@@ -825,7 +838,7 @@
         </div>
     </div>
 </div>
-<div class="mt-5">
+<div class="m-5">
     <div class="container " >
         <div class="row">
             <div class="col-6">
@@ -975,6 +988,7 @@
        </div>
     </div>
 </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
