@@ -191,3 +191,6 @@
   .box-shadow:hover {
     box-shadow: 5px 5px 11px  rgba(2, 2, 2, 0.2); 
   }
+  .leftmargin-100{
+      margin-left: 100px;
+  }
