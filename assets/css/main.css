@@ -174,3 +174,20 @@
     overflow-x: auto;
     overflow-y: hidden;
   }
+
+  body{
+    background: #fff;
+  }
+  .box-shadow {
+    transition: box-shadow .3s;
+    margin: 10px;
+    padding: 1px;
+    border-radius:5px;
+    border: 1px solid rgb(124, 122, 122);
+    background: #fff;
+    float: left;
+    
+  }
+  .box-shadow:hover {
+    box-shadow: 5px 5px 11px  rgba(2, 2, 2, 0.2); 
+  }
